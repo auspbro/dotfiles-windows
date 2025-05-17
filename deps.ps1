@@ -11,6 +11,7 @@ if (!(Verify-Elevated)) {
 # system and cli
 winget install Microsoft.WebPICmd                        --silent --accept-package-agreements --accept-source-agreements
 winget install Git.Git                                   --silent --accept-package-agreements --accept-source-agreements --override "/VerySilent /NoRestart /o:PathOption=CmdTools /Components=""icons,assoc,assoc_sh,gitlfs"""
+winget install GitHub.GitHubDesktop                      --silent --accept-package-agreements --accept-source-agreements   
 #winget install OpenJS.NodeJS                             --silent --accept-package-agreements --accept-source-agreements
 winget install Python.Python.3.12                        --silent --accept-package-agreements --accept-source-agreements
 #winget install RubyInstallerTeam.Ruby.3.2                --silent --accept-package-agreements --accept-source-agreements
